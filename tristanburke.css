@@ -7,11 +7,16 @@
     display: block;
 }
 
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .bg-1 {
     background-color: #4d88ff; /* blue */
     color: #ffffff;
 }
-.contact-bottom {
-    background-color: #efedf2;
-    color: #000000;
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
 }
