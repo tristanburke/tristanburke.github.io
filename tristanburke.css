@@ -2,3 +2,7 @@
  * Tristan Burke Site CSS
  * Copyright 2017 Tristan Burke
  */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
