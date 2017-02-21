@@ -11,6 +11,10 @@
     background-color: #4d88ff; /* blue */
     color: #ffffff;
 }
+.bg-2 {
+    background-color: white;
+    color: black;
+}
 .contact-bottom{
     background-color: #efedf2;
     color: black;
