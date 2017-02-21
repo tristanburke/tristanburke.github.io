@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
+    <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="updated image and header">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home.html" afterPath="$PROJECT_DIR$/Home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,17 +41,10 @@
       <file leaf-file-name="Home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="195">
+              <caret line="43" column="107" lean-forward="false" selection-start-line="43" selection-start-column="107" selection-end-line="43" selection-end-column="107" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tristan-Home-Pic.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site_photos/Tristan-Home-Pic.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -252,7 +246,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487555554143</updated>
       <workItem from="1487555555631" duration="2050000" />
-      <workItem from="1487571594072" duration="15058000" />
+      <workItem from="1487571594072" duration="15858000" />
     </task>
     <task id="LOCAL-00001" summary="Cname edited">
       <created>1487561489093</created>
@@ -422,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487713689306</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated image and header">
+      <created>1487713942736</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1487713942736</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17108000" />
+    <option name="totallyTimeSpent" value="17908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1260" height="661" extended-state="0" />
@@ -557,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="195">
+          <caret line="43" column="107" lean-forward="false" selection-start-line="43" selection-start-column="107" selection-end-line="43" selection-end-column="107" />
           <folding />
         </state>
       </provider>
