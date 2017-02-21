@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
+    <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="Finishing home page">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home.html" afterPath="$PROJECT_DIR$/Home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tristanburke.css" afterPath="$PROJECT_DIR$/tristanburke.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +32,8 @@
       <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -236,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487555554143</updated>
       <workItem from="1487555555631" duration="2050000" />
-      <workItem from="1487571594072" duration="17854000" />
+      <workItem from="1487571594072" duration="18167000" />
     </task>
     <task id="LOCAL-00001" summary="Cname edited">
       <created>1487561489093</created>
@@ -448,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487719379733</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Finishing home page">
+      <created>1487719618436</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1487719618437</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19904000" />
+    <option name="totallyTimeSpent" value="20217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1260" height="661" extended-state="0" />
@@ -568,18 +576,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Photos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
           <folding />
         </state>
       </provider>
