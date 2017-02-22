@@ -16,6 +16,10 @@
     background-color: #4d88ff; /* blue */
     color: #ffffff;
 }
+.bg-3 {
+    background-color: #ece8ee;
+    color: #000000;
+}
 .bg-4 {
     background-color: #2f2f2f;
     color: #ffffff;
