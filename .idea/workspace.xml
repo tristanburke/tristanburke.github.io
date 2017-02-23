@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tristanburke.css" afterPath="$PROJECT_DIR$/tristanburke.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -115,7 +114,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="92" />
+    <option name="x" value="34" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="661" />
@@ -248,14 +247,7 @@
       <updated>1487555554143</updated>
       <workItem from="1487555555631" duration="2050000" />
       <workItem from="1487571594072" duration="22698000" />
-      <workItem from="1487811375501" duration="4873000" />
-    </task>
-    <task id="LOCAL-00012" summary="Updated navbar with dropdown">
-      <created>1487638517295</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1487638517295</updated>
+      <workItem from="1487811375501" duration="5372000" />
     </task>
     <task id="LOCAL-00013" summary="Updated navbar with dropdown">
       <created>1487639608924</created>
@@ -593,14 +585,21 @@
       <option name="project" value="LOCAL" />
       <updated>1487892371639</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Fixing">
+      <created>1487892503910</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1487892503910</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29621000" />
+    <option name="totallyTimeSpent" value="30120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="92" y="23" width="1260" height="661" extended-state="0" />
+    <frame x="34" y="23" width="1260" height="661" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
