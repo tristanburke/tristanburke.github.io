@@ -58,4 +58,5 @@ section.module.parallax h1 {
 section.module.parallax-1 {
     background-image: url("Site_photos/Tristan-Home-Pic.jpg");
     background-size: 250px 250px;
+    background-position: 50% 20%;
 }
