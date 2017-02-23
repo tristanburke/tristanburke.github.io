@@ -27,7 +27,7 @@
 }
 
 .bg-1 {
-    background-color: #4d88ff; /* blue */
+    background-color: ; /* blue */
     color: #ffffff;
 }
 .bg-4 {
@@ -57,4 +57,5 @@ section.module.parallax h1 {
 }
 section.module.parallax-1 {
     background-image: url("Site_photos/Tristan-Home-Pic.jpg");
+    background-size: 250px 250px;
 }
