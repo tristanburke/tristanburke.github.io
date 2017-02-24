@@ -39,6 +39,21 @@
     padding-bottom: 35px;
 }
 
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+section.module p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+section.module p:last-child {
+    margin-bottom: 0;
+}
+section.module.content {
+    padding: 40px 0;
+}
 section.module.parallax {
     height: 600px;
     background-position: 50% 50%;
