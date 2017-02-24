@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Site_photos/About me.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home.html" afterPath="$PROJECT_DIR$/Home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tristanburke.css" afterPath="$PROJECT_DIR$/tristanburke.css" />
@@ -29,25 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tristanburke.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tristanburke.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tristanburke.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -73,8 +70,8 @@
         <option value="$PROJECT_DIR$/About_me.html" />
         <option value="$PROJECT_DIR$/Projects.html" />
         <option value="$PROJECT_DIR$/Photos.html" />
-        <option value="$PROJECT_DIR$/tristanburke.css" />
         <option value="$PROJECT_DIR$/Home.html" />
+        <option value="$PROJECT_DIR$/tristanburke.css" />
       </list>
     </option>
   </component>
@@ -85,7 +82,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
+    <option name="x" value="2" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="661" />
@@ -219,14 +216,7 @@
       <workItem from="1487555555631" duration="2050000" />
       <workItem from="1487571594072" duration="22698000" />
       <workItem from="1487811375501" duration="7416000" />
-      <workItem from="1487915900740" duration="322000" />
-    </task>
-    <task id="LOCAL-00020" summary="Added image">
-      <created>1487712930554</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1487712930554</updated>
+      <workItem from="1487915900740" duration="917000" />
     </task>
     <task id="LOCAL-00021" summary="background color">
       <created>1487713071297</created>
@@ -564,14 +554,21 @@
       <option name="project" value="LOCAL" />
       <updated>1487916046948</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Working &#10;">
+      <created>1487916255187</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1487916255187</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32486000" />
+    <option name="totallyTimeSpent" value="33081000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="23" width="1260" height="661" extended-state="0" />
+    <frame x="2" y="23" width="1260" height="661" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -600,7 +597,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bottom Contact Page" />
     <MESSAGE value="small fixes" />
     <MESSAGE value="Small fixes part 2" />
     <MESSAGE value="Photos" />
@@ -625,7 +621,8 @@
     <MESSAGE value="updating" />
     <MESSAGE value="&gt; &quot;welcome : )&quot;" />
     <MESSAGE value="delete &quot;find out more&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete &quot;find out more&quot;" />
+    <MESSAGE value="Working &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -644,11 +641,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -716,14 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tristanburke.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -734,13 +719,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tristanburke.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
