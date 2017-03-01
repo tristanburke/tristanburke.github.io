@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home.html" afterPath="$PROJECT_DIR$/Home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -218,14 +217,7 @@
       <workItem from="1487811375501" duration="7416000" />
       <workItem from="1487915900740" duration="2366000" />
       <workItem from="1488183087251" duration="4000" />
-      <workItem from="1488335170780" duration="152000" />
-    </task>
-    <task id="LOCAL-00026" summary="home page edit">
-      <created>1487715234474</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1487715234474</updated>
+      <workItem from="1488335170780" duration="160000" />
     </task>
     <task id="LOCAL-00027" summary="home page edit">
       <created>1487718552749</created>
@@ -563,11 +555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488335289767</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="edit">
+      <created>1488335336822</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1488335336822</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34686000" />
+    <option name="totallyTimeSpent" value="34694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1260" height="661" extended-state="0" />
@@ -609,7 +608,6 @@
     <MESSAGE value="working on links" />
     <MESSAGE value="Css updates" />
     <MESSAGE value="Removed links" />
-    <MESSAGE value="edit" />
     <MESSAGE value="experimenting" />
     <MESSAGE value="Fixing" />
     <MESSAGE value="update image" />
@@ -624,7 +622,8 @@
     <MESSAGE value="ADding links" />
     <MESSAGE value="Changed photos&#10;" />
     <MESSAGE value="Alert, under constrution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alert, under constrution" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
