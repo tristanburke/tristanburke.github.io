@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="35" column="83" lean-forward="false" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+              <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
               <folding>
                 <element signature="e#1363#1370#0" expanded="true" />
               </folding>
@@ -218,14 +218,7 @@
       <workItem from="1487811375501" duration="7416000" />
       <workItem from="1487915900740" duration="2366000" />
       <workItem from="1488183087251" duration="4000" />
-      <workItem from="1488335170780" duration="99000" />
-    </task>
-    <task id="LOCAL-00025" summary="updated image and header">
-      <created>1487713942736</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1487713942736</updated>
+      <workItem from="1488335170780" duration="152000" />
     </task>
     <task id="LOCAL-00026" summary="home page edit">
       <created>1487715234474</created>
@@ -563,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487958789986</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Alert, under constrution">
+      <created>1488335289767</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1488335289767</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34633000" />
+    <option name="totallyTimeSpent" value="34686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1260" height="661" extended-state="0" />
@@ -599,7 +599,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding Links to Photos" />
     <MESSAGE value="Change background color" />
     <MESSAGE value="Added Links" />
     <MESSAGE value="Added Links to photos and descriptions" />
@@ -624,7 +623,8 @@
     <MESSAGE value="padding added" />
     <MESSAGE value="ADding links" />
     <MESSAGE value="Changed photos&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed photos&#10;" />
+    <MESSAGE value="Alert, under constrution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alert, under constrution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -784,7 +784,7 @@
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="35" column="83" lean-forward="false" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+          <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
           <folding>
             <element signature="e#1363#1370#0" expanded="true" />
           </folding>
