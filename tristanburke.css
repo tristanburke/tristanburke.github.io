@@ -5,6 +5,9 @@
 
 /** Typed - CSS for blinking cursor **/
 
+body{
+    align-content: center;
+}
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
