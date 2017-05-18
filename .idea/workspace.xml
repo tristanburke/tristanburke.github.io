@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home.html" afterPath="$PROJECT_DIR$/Home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tristanburke.css" afterPath="$PROJECT_DIR$/tristanburke.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tristanburke.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tristanburke.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tristanburke.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -78,8 +78,8 @@
         <option value="$PROJECT_DIR$/About_me.html" />
         <option value="$PROJECT_DIR$/Projects.html" />
         <option value="$PROJECT_DIR$/Photos.html" />
-        <option value="$PROJECT_DIR$/tristanburke.css" />
         <option value="$PROJECT_DIR$/Home.html" />
+        <option value="$PROJECT_DIR$/tristanburke.css" />
       </list>
     </option>
   </component>
@@ -247,14 +247,7 @@
       <workItem from="1488335170780" duration="173000" />
       <workItem from="1488868751718" duration="801000" />
       <workItem from="1488921787995" duration="511000" />
-      <workItem from="1494793795994" duration="5805000" />
-    </task>
-    <task id="LOCAL-00040" summary="updated photos on home page">
-      <created>1487721907005</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1487721907005</updated>
+      <workItem from="1494793795994" duration="6303000" />
     </task>
     <task id="LOCAL-00041" summary="updated photos on home page">
       <created>1487722236963</created>
@@ -592,11 +585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495091033272</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="fixed source again">
+      <created>1495091243606</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1495091243606</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41824000" />
+    <option name="totallyTimeSpent" value="42322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="26" width="1260" height="661" extended-state="0" />
@@ -628,7 +628,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hover for boxes" />
     <MESSAGE value="working on links" />
     <MESSAGE value="Css updates" />
     <MESSAGE value="Removed links" />
@@ -653,7 +652,8 @@
     <MESSAGE value="Starting from beggining&#10;" />
     <MESSAGE value="Trying typed animation" />
     <MESSAGE value="fixed source" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed source" />
+    <MESSAGE value="fixed source again" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed source again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -845,14 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tristanburke.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Photos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -865,6 +857,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tristanburke.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>
