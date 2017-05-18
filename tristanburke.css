@@ -11,6 +11,10 @@ body{
     color: #FFFFFF;
 }
 
+.element{
+    font-size: 20px;
+}
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
