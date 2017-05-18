@@ -14,27 +14,34 @@
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" media="screen" href="tristanburke.css">
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- jQuery and Typed.js Copyright @MattBolt Thanks! -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/typed.js"></script>
 
     <title>Tristan Burke</title>
 
 </head>
 <body>
-
-    <script src="js/typed.js" type="text/javascript"></script>
+    <div class="jumbotron text-center">
+        <h1 id="complete"></h1>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+        <p>All Rights Reserved - Copyright Tristan Burke @ 2017 </p>
+    </footer>
     <script>
-        document.addEventListener("DOMContentLoaded", function(){
-            Typed.new(".element", {
-                strings: ["Hello", "My Name is Tristan"],
+        document.addEventListener('DOMContentLoaded', function(){
+            Typed.new('.complete', {
+                strings: ["Hello.", "My name is Tristan : )"],
                 typeSpeed: 0
             });
         });
     </script>
-    <span class="element"></span>
-    <footer class="container-fluid bg-4 text-center">
-        <p>All Rights Reserved - Copyright Tristan Burke @ 2017 </p>
-    </footer>
 </body>
 </html>
