@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home.html" afterPath="$PROJECT_DIR$/Home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tristanburke.css" afterPath="$PROJECT_DIR$/tristanburke.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,7 +70,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
+    <option name="x" value="222" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="646" />
@@ -117,6 +115,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -197,14 +200,7 @@
       <workItem from="1488335170780" duration="173000" />
       <workItem from="1488868751718" duration="801000" />
       <workItem from="1488921787995" duration="511000" />
-      <workItem from="1494793795994" duration="10967000" />
-    </task>
-    <task id="LOCAL-00054" summary="Css updates">
-      <created>1487889918423</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1487889918423</updated>
+      <workItem from="1494793795994" duration="11226000" />
     </task>
     <task id="LOCAL-00055" summary="Css updates">
       <created>1487890061376</created>
@@ -542,17 +538,24 @@
       <option name="project" value="LOCAL" />
       <updated>1495147475334</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="having difficulties">
+      <created>1495148573849</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1495148573849</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46986000" />
+    <option name="totallyTimeSpent" value="47245000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="23" width="1260" height="646" extended-state="0" />
-    <editor active="true" />
+    <frame x="222" y="23" width="1260" height="646" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -578,7 +581,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update image" />
     <MESSAGE value="Reverted back" />
     <MESSAGE value="Updating Find out more" />
     <MESSAGE value="&gt; &quot;welcome : )&quot;" />
@@ -603,7 +605,8 @@
     <MESSAGE value="fiddling around" />
     <MESSAGE value="updating" />
     <MESSAGE value="Retrying typed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retrying typed" />
+    <MESSAGE value="having difficulties" />
+    <option name="LAST_COMMIT_MESSAGE" value="having difficulties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -811,18 +814,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/typed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="146" column="52" lean-forward="false" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/typed.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/typed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="362" column="16" lean-forward="false" selection-start-line="362" selection-start-column="16" selection-end-line="362" selection-end-column="16" />
           <folding />
         </state>
       </provider>
