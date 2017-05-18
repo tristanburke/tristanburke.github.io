@@ -5,6 +5,10 @@
 
 /** Typed - CSS for blinking cursor **/
 
+.body {
+    alignment: center;
+    align-items: center;
+}
 .greeting{
     font-size: large;
     align-content: center;
