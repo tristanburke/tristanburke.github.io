@@ -2,18 +2,27 @@
  * Tristan Burke Site CSS
  * Copyright 2017 Tristan Burke
  */
-
-/** Typed - CSS for blinking cursor **/
 body{
     padding-top: 50px;
     padding-bottom: 50px;
     background: #333333 ;
     color: #FFFFFF;
 }
+.links{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
 
+h1, h2, h3, h4, p, ul li{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
 .element{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+
+/** Typed - CSS for blinking cursor **/
 
 .typed-cursor{
     opacity: 1;
