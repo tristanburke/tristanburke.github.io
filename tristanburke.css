@@ -4,10 +4,13 @@
  */
 
 /** Typed - CSS for blinking cursor **/
-
 body{
-    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #333333 ;
+    color: #FFFFFF;
 }
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
