@@ -2,21 +2,3 @@
  * Tristan Burke Site CSS
  * Copyright 2017 Tristan Burke
  */
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-.navbar-nav li a:hover {
-    color: #1abc9c !important;
-}
