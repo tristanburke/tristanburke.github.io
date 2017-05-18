@@ -5,6 +5,12 @@
 
 /** Typed - CSS for blinking cursor **/
 
+.greeting{
+    font-family: "American Typewriter";
+    font-size: large;
+    align-content: center;
+}
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
