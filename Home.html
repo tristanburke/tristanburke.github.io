@@ -12,10 +12,9 @@
 <html lang="en">
 <head>
     <!-- Latest compiled and minified CSS & JS -->
-    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" media="screen" href="tristanburke.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/tristanburke.css">
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -30,14 +29,14 @@
 </head>
 <body>
     <div class="jumbotron text-center">
-        <h1 id="complete"></h1>
+        <h1 class="element" ></h1>
     </div>
     <footer class="container-fluid bg-4 text-center">
         <p>All Rights Reserved - Copyright Tristan Burke @ 2017 </p>
     </footer>
     <script>
         document.addEventListener('DOMContentLoaded', function(){
-            Typed.new('.complete', {
+            Typed.new('.element', {
                 strings: ["Hello.", "My name is Tristan : )"],
                 typeSpeed: 0
             });
