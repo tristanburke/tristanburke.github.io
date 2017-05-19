@@ -9,7 +9,13 @@ body{
     background: #ffffff;
     color: #000000;
 }
-.element{
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-text: center;
+    align-content: center;
+}
+.element p{
     font-size: 30px;
 }
 
