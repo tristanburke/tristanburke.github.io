@@ -15,6 +15,15 @@ body{
     align-text: center;
     align-content: center;
 }
+.container .jumbotron{
+    background-color: transparent;
+}
+.element{
+    font-size: 30px;
+}
+.very-small{
+    font-size: 10px;
+}
 
 /** Typed cursor from Typed.js by Matt Bolt **/
 .typed-cursor{
