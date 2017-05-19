@@ -2,7 +2,30 @@
  * Tristan Burke Site CSS
  * Copyright 2017 Tristan Burke
  */
+body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container .jumbotron{
+    background-color: transparent;
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
 
+.links{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+h1, h2, h3, h4, p, ul li{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.element{
+    font-size: 15px;
+}
 /** Typed - CSS for blinking cursor **/
 
 .typed-cursor{
