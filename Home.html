@@ -28,15 +28,18 @@
 
 </head>
 <body>
-    <p class="element" ></p>
+    <div id="typed-strings">
+        <p>Hello! <strong>Welcome</strong></p>
+        <p>My name is Tristan.   :) </p>
+    </div>
+    <span id="typed"></span>
     <footer class="container-fluid bg-4 text-center">
         <p>All Rights Reserved - Copyright Tristan Burke @ 2017 </p>
     </footer>
     <script>
         document.addEventListener('DOMContentLoaded', function(){
-            Typed.new('.element', {
-                strings: ["Hello.", "My name is Tristan : )"],
-                typeSpeed: 0
+            Typed.new('#typed', {
+                stringsElement: document.getElementById('typed-strings')
             });
         });
     </script>
