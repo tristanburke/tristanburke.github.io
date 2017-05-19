@@ -15,9 +15,6 @@ body{
     align-text: center;
     align-content: center;
 }
-.element p{
-    font-size: 30px;
-}
 
 /** Typed cursor from Typed.js by Matt Bolt **/
 .typed-cursor{
