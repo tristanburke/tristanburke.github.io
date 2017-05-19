@@ -4,11 +4,13 @@
  */
 body{
     font-family: Courier;
-    font-size: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
     background: #ffffff;
     color: #000000;
+}
+.element{
+    font-size: 30px;
 }
 
 /** Typed cursor from Typed.js by Matt Bolt **/
