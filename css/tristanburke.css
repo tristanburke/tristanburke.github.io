@@ -3,20 +3,12 @@
  * Copyright 2017 Tristan Burke
  */
 body{
+    font-family: Courier;
+    font-size: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
     background: #ffffff;
     color: #000000;
-}
-
-.center{
-    position: absolute;
-    text-align: center;
-}
-.center div{
-    font-family: "American Typewriter";
-    font-size: 40px;
-    color: BLACK;
 }
 
 /** Typed cursor from Typed.js by Matt Bolt **/
