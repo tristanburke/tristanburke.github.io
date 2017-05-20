@@ -7,8 +7,26 @@
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" href="css/tristanburke.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/typed.js"></script>
 </head>
 <body>
-
+    <div id="typed-strings">
+        <p>Here's a few things I've worked on... ^800 "projects"</p>
+    </div>
+    <div class="container">
+        <div class="jumbotron"></div>
+            <h1><span id="typed"></span></h1>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            Typed.new('#typed', {
+                stringsElement: document.getElementById('typed-strings')
+            });
+        });
+    </script>
 </body>
 </html>
