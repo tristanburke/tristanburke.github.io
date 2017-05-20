@@ -2,13 +2,6 @@
  * Tristan Burke Site CSS
  * Copyright 2017 Tristan Burke
  */
-.navbar-custom {
-    background-color:#FFFFFF;
-    color:#000000;
-    border-radius:0;
-}
-
-
 body{
     font-family: Courier;
     padding-top: 50px;
@@ -25,12 +18,30 @@ body{
 .container .jumbotron{
     background-color: transparent;
 }
-.container .jumbotron p{
-    font-size: 15px;
+.spacing{
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 .element{
     font-size: 30px;
 }
+p{
+    font-family: "Courier New";
+    color: black;
+    font-size: 14px;
+}
+a{
+   color: inherit;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+
 
 
 /** Typed cursor from Typed.js by Matt Bolt **/
