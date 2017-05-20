@@ -9,6 +9,18 @@ body{
     background: #ffffff;
     color: #000000;
 }
+.main{
+
+}
+.main a:link{
+    background-color: black;
+    color: white;
+}
+.main a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
 .container{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -28,15 +40,15 @@ body{
 p{
     font-family: "Courier New";
     color: black;
-    font-size: 14px;
+    font-size: 13px;
 }
 a{
    color: inherit;
 }
-a:link{
+.pages a:link{
     color: black;
 }
-a:hover{
+.pages a:hover{
     text-decoration: none;
     background-color: BLACK;
     color: WHITE;
