@@ -13,13 +13,12 @@ body{
 
 }
 .main a:link{
-    background-color: black;
-    color: white;
+    font-weight: Bold;
 }
 .main a:hover{
     text-decoration: none;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 .container{
     padding-top: 30px;
