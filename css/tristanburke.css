@@ -9,6 +9,10 @@ body{
     background: #ffffff;
     color: #000000;
 }
+div{
+    padding: 0px;
+    margin: 0px;
+}
 .main a:link{
     font-weight: Bold;
 }
@@ -17,18 +21,24 @@ body{
     background-color: black;
     color: white;
 }
-.container{
+.home{
     padding-top: 30px;
     padding-bottom: 30px;
-    align-text: center;
+    text-align: center;
     align-content: center;
 }
-.container .jumbotron{
+.home .jumbotron{
     background-color: transparent;
 }
-.spacing{
-    padding-top: 50px;
-    padding-bottom: 10px;
+.side-page{
+    text-align: center;
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.page{
+
 }
 .element{
     font-size: 30px;
