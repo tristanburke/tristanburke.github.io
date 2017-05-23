@@ -354,18 +354,6 @@
 
 		},
 
-		// Adds a CSS class to fade out current string
-		initFadeOut: function(){
-			self = this;
-			this.el.className += ' ' + this.fadeOutClass;
-			this.cursor.className += ' ' + this.fadeOutClass;
-			return setTimeout(function() {
-				self.arrayPos++;
-				self.replaceText('')
-				self.typewrite(self.strings[self.sequence[self.arrayPos]], 0);
-			}, self.fadeOutDelay);
-		},
-
 		// Replaces current text in the HTML element
 		replaceText: function(str) {
 			if (this.attr) {

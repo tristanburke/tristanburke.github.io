@@ -4,7 +4,7 @@
  */
 body{
     font-family: Courier;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px;
     background: #ffffff;
     color: #000000;
@@ -21,8 +21,24 @@ div{
     background-color: black;
     color: white;
 }
-.home{
+.spacing{
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+.spacing2{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.navbar-brand{
+    font-size: 14px;
+}
+.navbar-brand:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+.home{
+    padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
     align-content: center;
@@ -55,6 +71,11 @@ a{
     color: black;
 }
 .pages a:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+.container-fluid a:hover{
     text-decoration: none;
     background-color: BLACK;
     color: WHITE;
