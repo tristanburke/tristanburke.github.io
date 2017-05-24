@@ -7,23 +7,37 @@
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" href="css/tristanburke.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/typed.js"></script>
+
+    <nav class="navbar fixed-top navbar-light bg-faded">
+        <a class="navbar-brand" href="Home.html">< home page</a>
+    </nav>
 </head>
 <body>
-<div class="jumbotron">
-    <div class="container">
-        <h1>Photos </h1>
-        <img src="Site_photos/1.jpg"
-                 class="img-responsive" alt="Image">
-        <img src="Site_photos/2.jpg"
-             class="img-responsive" alt="Image">
-        <img src="Site_photos/3.jpg"
-             class="img-responsive" alt="Image">
-        <img src="Site_photos/4.jpg"
-             class="img-responsive" alt="Image">
-        <img src="Site_photos/5.jpg"
-             class="img-responsive" alt="Image">
-    </div>
+<div id="typed-strings">
+    <p>Pick you poison ;)</p>
 </div>
-
+<div class="container page">
+    <div class="side-page photos-header">
+        <h1><span id="typed"></span></h1>
+        <img src="Site_photos/1.jpg"          class="img-responsive" alt="Image"> 
+        <img src="Site_photos/2.jpg"      class="img-responsive" alt="Image"> 
+        <img src="Site_photos/3.jpg"      class="img-responsive" alt="Image"> 
+        <img src="Site_photos/4.jpg"      class="img-responsive" alt="Image">
+         <img src="Site_photos/5.jpg"      class="img-responsive" alt="Image">
+    <footer class="container-fluid spacing text-center">
+        <p>All Rights Reserved - Copyright Tristan Burke &copy; 2017 </p>
+    </footer>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        Typed.new('#typed', {
+            stringsElement: document.getElementById('typed-strings')
+        });
+    });
+</script>
 </body>
 </html>
