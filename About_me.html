@@ -7,8 +7,63 @@
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" href="css/tristanburke.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/typed.js"></script>
+
+    <nav class="navbar fixed-top navbar-light bg-faded">
+        <a class="navbar-brand" href="Home.html">< home page</a>
+    </nav>
 </head>
 <body>
-
+<div id="typed-strings">
+    <p>I </p>
+</div>
+<div class="container page">
+    <div class="side-page">
+        <h1><span id="typed"></span></h1>
+    </div>
+    <div class="text-center spacing">
+        <p>Here are a few projects I've worked on. Click to learn more about the techniques,
+            reasoning, and lessons learned behind each project. I'm hoping that this page will grow much larger in the next
+            couple years... </p>
+    </div>
+    <div class="row content spacing2">
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="pages">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="pages">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <div class="pages">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid spacing text-center">
+        <p><a href="https://github.com/tristanburke"target="_blank" >GitHub</a> &bull;
+            <a href="mailto:tristan_burke@berkeley.edu" target="_blank">Email</a> &bull;
+            <a href="tristan-burke-resume.pdf" target="_blank" >Resume</a>
+            <br>
+        </p>
+        <p>All Rights Reserved - Copyright Tristan Burke &copy; 2017 </p>
+    </footer>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        Typed.new('#typed', {
+            stringsElement: document.getElementById('typed-strings')
+        });
+    });
+</script>
 </body>
 </html>

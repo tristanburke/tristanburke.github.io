@@ -65,9 +65,15 @@ a{
    color: inherit;
 }
 .pages a:link{
+    font-weight: bold;
     color: black;
 }
 .pages a:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+.home-links a:hover{
     text-decoration: none;
     background-color: BLACK;
     color: WHITE;
@@ -80,6 +86,9 @@ a{
 .proj-btn a{
     background-color: #C0C0C0;
     color:BLACK;
+}
+.proj-btn a:link{
+    font-weight: normal;
 }
 .btn:hover{
     background-color: BLACK;
