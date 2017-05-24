@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/Low-Poly" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Photos.html" afterPath="$PROJECT_DIR$/Photos.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projects.html" afterPath="$PROJECT_DIR$/Projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tristanburke.css" afterPath="$PROJECT_DIR$/css/tristanburke.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,14 +32,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Projects.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="75" column="69" lean-forward="false" selection-start-line="75" selection-start-column="69" selection-end-line="75" selection-end-column="69" />
+            <state relative-caret-position="191">
+              <caret line="79" column="18" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="79" selection-end-column="18" />
               <folding>
-                <element signature="e#4323#4329#0" expanded="true" />
+                <element signature="e#4523#4529#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Photos.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Photos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,11 +99,11 @@
         <option value="$PROJECT_DIR$/PhotosAndMusic" />
         <option value="$PROJECT_DIR$/Home.html" />
         <option value="$PROJECT_DIR$/PhotosAndMusic.html" />
-        <option value="$PROJECT_DIR$/Photos.html" />
         <option value="$PROJECT_DIR$/Site_photos/LowPoly.html" />
         <option value="$PROJECT_DIR$/css/Low-Poly" />
         <option value="$PROJECT_DIR$/css/tristanburke.css" />
         <option value="$PROJECT_DIR$/Projects.html" />
+        <option value="$PROJECT_DIR$/Photos.html" />
       </list>
     </option>
   </component>
@@ -107,7 +114,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-92" />
+    <option name="x" value="-3" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="646" />
@@ -275,7 +282,7 @@
       <workItem from="1488335170780" duration="173000" />
       <workItem from="1488868751718" duration="801000" />
       <workItem from="1488921787995" duration="511000" />
-      <workItem from="1494793795994" duration="40907000" />
+      <workItem from="1494793795994" duration="41419000" />
     </task>
     <task id="LOCAL-00075" summary="edit">
       <created>1488335336822</created>
@@ -624,10 +631,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76926000" />
+    <option name="totallyTimeSpent" value="77438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-92" y="23" width="1260" height="646" extended-state="0" />
+    <frame x="-3" y="23" width="1260" height="646" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -946,14 +953,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhotosAndMusic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -990,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LowPoly.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/tristanburke.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1006,13 +997,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LowPoly.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="75" column="69" lean-forward="false" selection-start-line="75" selection-start-column="69" selection-end-line="75" selection-end-column="69" />
+        <state relative-caret-position="191">
+          <caret line="79" column="18" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="79" selection-end-column="18" />
           <folding>
-            <element signature="e#4323#4329#0" expanded="true" />
+            <element signature="e#4523#4529#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
