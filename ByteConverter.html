@@ -8,15 +8,16 @@
     <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" media="screen" href="css/tristanburke.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/typed.js"></script>
 
+</head>
+<body>
     <nav class="navbar fixed-top navbar-light bg-faded">
         <a class="navbar-brand" href="Home.html">< home page</a>
     </nav>
-</head>
-<body>
     <div id="typed-strings">
         <p>Byte Converter!</p>
     </div>
@@ -27,42 +28,38 @@
         <div class="text-center spacing">
             <p>Convert them bytes</p>
         </div>
-        <div class="row content spacing2">
-            <div class="col-md-5">
-                <div class="text-center">
-                    <div class="pages">
-                        <select id="primary">
-                            <option value="bits">Bits</option>
-                            <option value="nibbles">Nibbles</option>
-                            <option value="bytes">Bytes</option>
-                            <option value="words">Word</option>
-                            <option value="kilobytes">Kilobytes (KB)</option>
-                            <option value="megabytes">Megabytes (MG)</option>
-                            <option value="gigabytes">Gigabytes (GB)</option>
-                            <option value="terabytes">Terabytes (TB)</option>
-                        </select>
-                        <input id="p" onkeyup="convert()">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <i class="fa fa-arrows-h" ></i>
-            </div>
-            <div class="col-md-5">
-                <div class="text-center">
-                    <div class="pages">
-                        <input id="s" onkeyup="convert()">
-                        <select id="secondary">
-                            <option value="bits">Bits</option>
-                            <option value="nibbles">Nibbles</option>
-                            <option value="bytes">Bytes</option>
-                            <option value="words">Word</option>
-                            <option value="kilobytes">Kilobytes (KB)</option>
-                            <option value="megabytes">Megabytes (MG)</option>
-                            <option value="gigabytes">Gigabytes (GB)</option>
-                            <option value="terabytes">Terabytes (TB)</option>
-                        </select>
-                    </div>
+        <div class="converter">
+            <div class="row content">
+                <div class="col-md-5 v-center" align="center">
+                    <select title="primary" id="primary">
+                        <option value="bits">Bits</option>
+                        <option value="nibbles">Nibbles</option>
+                        <option value="bytes">Bytes</option>
+                        <option value="words">Word</option>
+                        <option value="kilobytes">Kilobytes (KB)</option>
+                        <option value="megabytes">Megabytes (MG)</option>
+                        <option value="gigabytes">Gigabytes (GB)</option>
+                        <option value="terabytes">Terabytes (TB)</option>
+                    </select>
+                    <input title="p" id="p" value="0" onkeyup="convert()">
+                </div><!--
+                  --><div class="col-md-2 text-center v-center" align="center">
+                        <button class="btn btn-primary-outline" onclick="convert()">
+                            <i class="fa fa-5x fa-arrows-h" ></i>
+                        </button>
+                </div><!--
+                  --><div class="col-md-5 v-center" align="center">
+                    <input title="s" id="s" value="0" onkeyup="convert()" readonly>
+                    <select title="secondary" id="secondary">
+                        <option value="bits">Bits</option>
+                        <option value="nibbles">Nibbles</option>
+                        <option value="bytes">Bytes</option>
+                        <option value="words">Word</option>
+                        <option value="kilobytes">Kilobytes (KB)</option>
+                        <option value="megabytes">Megabytes (MG)</option>
+                        <option value="gigabytes">Gigabytes (GB)</option>
+                        <option value="terabytes">Terabytes (TB)</option>
+                    </select>
                 </div>
             </div>
         </div>

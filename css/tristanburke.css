@@ -9,9 +9,19 @@ body{
     background: #ffffff;
     color: #000000;
 }
-div{
-    padding: 0px;
-    margin: 0px;
+.btn-primary-outline {
+    background-color: #C0C0C0;
+    border-color: black;
+    color:black;
+}
+.btn-primary-outline:hover {
+    background-color: white;
+    border-color: black;
+    color: #C0C0C0;
+}
+.converter{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .main a:link{
     font-weight: Bold;
@@ -21,9 +31,17 @@ div{
     background-color: black;
     color: white;
 }
-.main a:visted{
+.main a:visited{
     text-decoration: none;
     color: black;
+}
+.row-centered {
+    text-align:center;
+}
+.v-center{
+    display:inline-block;
+    vertical-align: middle;
+    float: none;
 }
 .spacing{
     padding-top: 30px;
@@ -67,6 +85,10 @@ p{
 }
 a{
    color: inherit;
+}
+.input-boxes{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .pages a:link{
     font-weight: bold;
