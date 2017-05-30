@@ -16,7 +16,7 @@
 </head>
 <body>
     <nav class="navbar fixed-top navbar-light bg-faded">
-        <a class="navbar-brand" href="Home.html">< home page</a>
+        <a class="navbar-brand" href="Projects.html">< back</a>
     </nav>
     <div id="typed-strings">
         <p>Byte Converter!</p>
@@ -31,7 +31,7 @@
         <div class="converter">
             <div class="row content">
                 <div class="col-md-5 v-center" align="center">
-                    <select title="primary" id="primary">
+                    <select title="primary" onchange="convert()" id="primary">
                         <option value="bits">Bits</option>
                         <option value="nibbles">Nibbles</option>
                         <option value="bytes">Bytes</option>
@@ -50,7 +50,7 @@
                 </div><!--
                   --><div class="col-md-5 v-center" align="center">
                     <input title="s" id="s" value="0" onkeyup="convert()" readonly>
-                    <select title="secondary" id="secondary">
+                    <select title="secondary" onchange="convert()" id="secondary">
                         <option value="bits">Bits</option>
                         <option value="nibbles">Nibbles</option>
                         <option value="bytes">Bytes</option>
