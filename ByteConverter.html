@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" href="css/tristanburke.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/typed.js"></script>
+
+    <nav class="navbar fixed-top navbar-light bg-faded">
+        <a class="navbar-brand" href="Home.html">< home page</a>
+    </nav>
+</head>
+<body>
+    <div id="typed-strings">
+        <p>Byte Converter!</p>
+    </div>
+    <div class="container page">
+        <div class="side-page">
+            <h1><span id="typed"></span></h1>
+        </div>
+        <div class="text-center spacing">
+            <p>Convert them bytes</p>
+        </div>
+        <div class="row content spacing2">
+            <div class="col-md-5">
+                <div class="text-center">
+                    <div class="pages">
+                        <select id="primary">
+                            <option value="bits">Bits</option>
+                            <option value="nibbles">Nibbles</option>
+                            <option value="bytes">Bytes</option>
+                            <option value="words">Word</option>
+                            <option value="kilobytes">Kilobytes (KB)</option>
+                            <option value="megabytes">Megabytes (MG)</option>
+                            <option value="gigabytes">Gigabytes (GB)</option>
+                            <option value="terabytes">Terabytes (TB)</option>
+                        </select>
+                        <input id="p" onkeyup="convert()">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <i class="fa fa-arrows-h" ></i>
+            </div>
+            <div class="col-md-5">
+                <div class="text-center">
+                    <div class="pages">
+                        <input id="s" onkeyup="convert()">
+                        <select id="secondary">
+                            <option value="bits">Bits</option>
+                            <option value="nibbles">Nibbles</option>
+                            <option value="bytes">Bytes</option>
+                            <option value="words">Word</option>
+                            <option value="kilobytes">Kilobytes (KB)</option>
+                            <option value="megabytes">Megabytes (MG)</option>
+                            <option value="gigabytes">Gigabytes (GB)</option>
+                            <option value="terabytes">Terabytes (TB)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid spacing text-center">
+            <p><a href="https://github.com/tristanburke"target="_blank" >GitHub</a> &bull;
+                <a href="mailto:tristan_burke@berkeley.edu" target="_blank">Email</a> &bull;
+                <a href="tristan-burke-resume.pdf" target="_blank" >Resume</a>
+                <br>
+            </p>
+            <p>All Rights Reserved - Copyright Tristan Burke &copy; 2017 </p>
+        </footer>
+    </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        Typed.new('#typed', {
+            stringsElement: document.getElementById('typed-strings')
+        });
+    });
+</script>
+<script>
+    function convert() {
+        var primary_field = document.getElementById("primary");
+        var primary_selected = primary_field.options[primary_field.selectedIndex].value;
+        var primary_value = document.getElementById("p").value;
+        var secondary_field = document.getElementById("secondary");
+        var secondary_selected = secondary_field.options[secondary_field.selectedIndex].value;
+
+        //Convert primary into bits
+        var primary_bits = primary_value;
+        switch (primary_selected) {
+            case 'nibbles':
+                primary_bits *= 4;
+                break;
+            case 'bytes':
+                primary_bits *= 8;
+                break;
+            case 'words':
+                primary_bits *= 16;
+                break;
+            case 'kilobytes':
+                primary_bits *= 8000;
+                break;
+            case 'megabytes':
+                primary_bits *= 8000000;
+                break;
+            case 'gigabytes':
+                primary_bits *= 8000000000;
+                break;
+            case 'terabytes':
+                primary_bits *= 8000000000000;
+                break;
+            default:
+                break;
+        }
+        //Convert Primary_bits into Secondary_Selected field
+        var new_secondary = 0;
+        switch (secondary_selected) {
+            case 'nibbles':
+                new_secondary = primary_bits / 4;
+                break;
+            case 'bytes':
+                new_secondary = primary_bits / 8;
+                break;
+            case 'words':
+                new_secondary = primary_bits / 16;
+                break;
+            case 'kilobytes':
+                new_secondary = primary_bits / 8000;
+                break;
+            case 'megabytes':
+                new_secondary = primary_bits / 8000000;
+                break;
+            case 'gigabytes':
+                new_secondary = primary_bits / 8000000000;
+                break;
+            case 'terabytes':
+                new_secondary = primary_bits / 8000000000000;
+                break;
+            default:
+                new_secondary = primary_bits;
+                break;
+        }
+        //update Secondary Field
+        document.getElementById("s").value = new_secondary;
+
+    }
+</script>
+</body>
+</html>

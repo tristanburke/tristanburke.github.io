@@ -21,6 +21,10 @@ div{
     background-color: black;
     color: white;
 }
+.main a:visted{
+    text-decoration: none;
+    color: black;
+}
 .spacing{
     padding-top: 30px;
     padding-bottom: 30px;
