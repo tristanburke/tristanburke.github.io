@@ -121,6 +121,13 @@ a{
     color:WHITE;
 }
 /** Piano CSS **/
+.piano{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1140px;
+    height: 204px;
+    position: relative;
+}
 .key{
     display: inline-block;
     border-radius: 5px;
@@ -129,11 +136,32 @@ a{
     border: 2px solid black;
 }
 .black-key{
+    top: 0%;
     display: inline-block;
     width: 30px;
     height: 140px;
     background-color: black;
     border-radius: 7px;
+}
+.cs{
+    position: absolute;
+    left: 405px;
+}
+.ds{
+    position: absolute;
+    left: 455px;
+}
+.fs{
+    position: absolute;
+    left: 555px;
+}
+.gs{
+    position: absolute;
+    left: 605px;
+}
+.as{
+    position: absolute;
+    left: 655px;
 }
 
 
