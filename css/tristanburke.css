@@ -51,6 +51,14 @@ body{
     padding-top: 10px;
     padding-bottom: 30px;
 }
+.spacing3{
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.spacing4{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
 .navbar-brand{
     font-size: 14px;
 }
@@ -121,10 +129,13 @@ a{
     color:WHITE;
 }
 /** Piano CSS **/
+
+.page2{
+    justify-content: center;
+}
 .piano{
-    margin-top: 40px;
-    margin-bottom: 60px;
-    width: 1140px;
+    margin:auto;
+    width: 405px;
     height: 204px;
     position: relative;
 }
@@ -145,23 +156,23 @@ a{
 }
 .cs{
     position: absolute;
-    left: 405px;
+    left: 35px;
 }
 .ds{
     position: absolute;
-    left: 455px;
+    left: 85px;
 }
 .fs{
     position: absolute;
-    left: 555px;
+    left: 185px;
 }
 .gs{
     position: absolute;
-    left: 605px;
+    left: 235px;
 }
 .as{
     position: absolute;
-    left: 655px;
+    left: 285px;
 }
 
 
