@@ -157,11 +157,13 @@
             oscillator.connect(gainNode);
             gainNode.connect(audioCtx.destination);
 
-            gainNode.gain.value = .2;
+            gainNode.gain.value = 0;
             oscillator.frequency.value = freq;
             oscillator.type = 'sine';
 
             oscillator.start();
+            gainNode.gain.setValueAtTime(gainNode.gain.value, audioCtx.currentTime);
+            gainNode.gain.linearRampToValueAtTime(0.4, audioCtx.currentTime + 0.01);
             setTimeout(
                 function() {
                     gainNode.gain.setValueAtTime(gainNode.gain.value, audioCtx.currentTime);
