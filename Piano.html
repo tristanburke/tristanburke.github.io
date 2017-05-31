@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <title>Piano</title>
     <!-- Latest compiled and minified CSS & JS -->
-    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" media="screen" href="css/tristanburke.css">
+    <link rel="stylesheet" media="screen" href="css/bootstrap-slider.css">
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/typed.js"></script>
+    <script src="js/bootstrap-slider.js"></script>
 
 </head>
 <body>
     <div id="typed-strings">
         <p>Piano!^600 Actually... ^600</p>
-        <p>Keyboard! ^600 (a bit more apt)</p>
+        <p>Keyboard! ^600 (a bit more fitting)</p>
     </div>
     <nav class="navbar fixed-top navbar-light bg-faded">
         <a class="navbar-brand" href="Projects.html">< back</a>
@@ -39,6 +41,9 @@
             --><div id="gs" class="black-key gs"></div><!--
             --><div id="as" class="black-key as"></div>
         </div>
+        <div class="spacing">
+            <p>Volume  <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/></p>
+        </div>
         <footer class="container-fluid spacing4 text-center">
             <p><a href="https://github.com/tristanburke"target="_blank" >GitHub</a> &bull;
                 <a href="mailto:tristan_burke@berkeley.edu" target="_blank">Email</a> &bull;
@@ -48,132 +53,13 @@
             <p>All Rights Reserved - Copyright Tristan Burke &copy; 2017 </p>
         </footer>
     </div>
+    <script src="js/piano.js"></script>
     <script>
-        window.onload=function(){
-            document.addEventListener("keydown",play);
-        }
-        function chColor(key){
-            key.style.backgroundColor='#d2d2d2';
-        }
-        function chBackColor(key){
-            key.style.backgroundColor='white';
-        }
-        function chColorBlackKey(key){
-            key.style.backgroundColor='#424242';
-        }
-        function chBackColorBlackKey(key){
-            key.style.backgroundColor='black';
-        }
-        var audioCtx = new(window.AudioContext || window.webkitAudioContext)();
-        function play() {
-            switch(event.keyCode){
-                case 65: // C
-                    sound(261.626);
-                    var key = document.getElementById('c');
-                    chColor(key);
-                    setTimeout(function() { chBackColor(key); }, 300);
-                    break;
-                case 87: //C#
-                    sound(277.183);
-                    var key = document.getElementById('cs');
-                    chColorBlackKey(key);
-                    setTimeout(function() { chBackColorBlackKey(key); }, 300);
-                    break;
-                case 83: //D
-                    sound(293.665);
-                    var key = document.getElementById('d');
-                    chColor(key);
-                    setTimeout(function() { chBackColor(key); }, 300);
-                    break;
-                case 69: //D#
-                    sound(311.127);
-                    var key = document.getElementById('ds');
-                    chColorBlackKey(key);
-                    setTimeout(function() { chBackColorBlackKey(key); }, 300);
-                    break;
-                case 68: //E
-                    sound(329.628);
-                    var key = document.getElementById('e');
-                    chColor(key);
-                    setTimeout(function() { chBackColor(key); }, 300);
-                    break;
-                case 70: //F
-                    sound(349.228);
-                    var key = document.getElementById('f');
-                    chColor(key);
-                    setTimeout(function() { chBackColor(key); }, 300);
-                    break;
-                case 84: //F#
-                    sound(369.994);
-                    var key = document.getElementById('fs');
-                    chColorBlackKey(key);
-                    setTimeout(function() { chBackColorBlackKey(key); }, 300);
-                    break;
-                case 71: //G
-                    sound(391.995);
-                    var key = document.getElementById('g');
-                    chColor(key);
-                    setTimeout(function() { chBackColor(key); }, 300);
-                    break;
-                case 89: //G#
-                    sound(415.305);
-                    var key = document.getElementById('gs');
-                    chColorBlackKey(key);
-                    setTimeout(function() { chBackColorBlackKey(key); }, 300);
-                    break;
-                case 72: //A
-                    sound(440.000);
-                    var key = document.getElementById('a');
-                    chColor(key);
-                    setTimeout(function() { chBackColor(key); }, 300);
-                    break;
-                case 85: //A#
-                    sound(466.164);
-                    var key = document.getElementById('as');
-                    chColorBlackKey(key);
-                    setTimeout(function() { chBackColorBlackKey(key); }, 300);
-                    break;
-                case 74: //B
-                    sound(493.883);
-                    var key = document.getElementById('b');
-                    chColor(key);
-                    setTimeout(function() { chBackColor(key); }, 300);
-                    break;
-                case 75: //C
-                    sound(523.251);
-                    var key = document.getElementById('c1');
-                    chColor(key);
-                    setTimeout(function() { chBackColor(key); }, 300);
-                    break;
-                default:
-                    break;
+        var slider = new Slider('#ex1', {
+            formatter: function(value) {
+                return 'Current value: ' + value;
             }
-
-        }
-        function sound(freq) {
-            var oscillator = audioCtx.createOscillator();
-            var gainNode = audioCtx.createGain();
-
-            oscillator.connect(gainNode);
-            gainNode.connect(audioCtx.destination);
-
-            gainNode.gain.value = 0;
-            oscillator.frequency.value = freq;
-            oscillator.type = 'sine';
-
-            oscillator.start();
-            gainNode.gain.setValueAtTime(gainNode.gain.value, audioCtx.currentTime);
-            gainNode.gain.linearRampToValueAtTime(0.4, audioCtx.currentTime + 0.01);
-            setTimeout(
-                function() {
-                    gainNode.gain.setValueAtTime(gainNode.gain.value, audioCtx.currentTime);
-                    gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.03);
-                },
-                300
-            );
-        }
-    </script>
-    <script>
+        });
         document.addEventListener('DOMContentLoaded', function(){
             Typed.new('#typed', {
                 stringsElement: document.getElementById('typed-strings')
