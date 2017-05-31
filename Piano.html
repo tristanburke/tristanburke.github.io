@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piano</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" href="css/tristanburke.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/typed.js"></script>
+
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-light bg-faded">
+        <a class="navbar-brand" href="Projects.html">< back</a>
+    </nav>
+    <div class="container page">
+        <div class="piano">
+            <div class="key"></div><!--
+            --><div class="key"></div><!--
+            --><div class="key"></div><!--
+            --><div class="key"></div><!--
+            --><div class="black-key"></div>
+        </div>
+    </div>
+    <script>
+        window.onload=function(){
+            document.addEventListener("keydown",play);
+        }
+        function play() {
+            if (event.keyCode == 37) {
+                /**var context = new (window.AudioContext || window.webkitAudioContext)();
+                var osc = context.createOscillator(); // instantiate an oscillator
+                osc.type = 'sine'; // this is the default - also square, sawtooth, triangle
+                osc.frequency.value = 440; // Hz
+                osc.connect(context.destination); // connect it to the destination
+                osc.start(); // start the oscillator
+                osc.stop(context.currentTime + 2); **/
+
+                var context = new (window.AudioContext || window.webkitAudioContext)();
+                var osc = context.createOscillator();
+                var vol = context.createGainNode();
+
+                osc.type = 'sine';
+                osc.frequency.value = 440;
+                vol.gain.value = 0.1; // from 0 to 1, 1 full volume, 0 is muted
+
+                osc.connect(vol); // connect osc to vol
+                vol.connect(context.destination); // connect vol to context destination
+
+                osc.start();
+                osc.stop(context.currentTime + 2); // start it three seconds from now
+            }
+        }
+    </script>
+</body>
+</html>

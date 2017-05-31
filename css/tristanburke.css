@@ -120,6 +120,21 @@ a{
     background-color: BLACK;
     color:WHITE;
 }
+/** Piano CSS **/
+.key{
+    display: inline-block;
+    border-radius: 5px;
+    width: 50px;
+    height: 200px;
+    border: 2px solid black;
+}
+.black-key{
+    display: inline-block;
+    width: 30px;
+    height: 140px;
+    background-color: black;
+    border-radius: 7px;
+}
 
 
 /** Typed cursor from Typed.js by Matt Bolt **/
