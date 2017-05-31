@@ -14,10 +14,16 @@
 
 </head>
 <body>
+    <div id="typed-strings">
+        <p>Piano!^600 Actually... ^600</p>
+        <p>Keyboard! ^600 (a bit more apt)</p>
+    </div>
     <nav class="navbar fixed-top navbar-light bg-faded">
         <a class="navbar-brand" href="Projects.html">< back</a>
     </nav>
     <div class="container page text-center">
+        <h1><span id="typed"></span></h1>
+        <p><br><br>Use keys "a" through "k" to play notes "c" to "c1", as confusing as that is :)</p>
         <div class="piano">
                <div id="c" class="key"></div><!--
             --><div id="d" class="key"></div><!--
@@ -33,6 +39,14 @@
             --><div id="gs" class="black-key gs"></div><!--
             --><div id="as" class="black-key as"></div>
         </div>
+        <footer class="container-fluid spacing text-center">
+            <p><a href="https://github.com/tristanburke"target="_blank" >GitHub</a> &bull;
+                <a href="mailto:tristan_burke@berkeley.edu" target="_blank">Email</a> &bull;
+                <a href="tristan-burke-resume.pdf" target="_blank" >Resume</a>
+                <br>
+            </p>
+            <p>All Rights Reserved - Copyright Tristan Burke &copy; 2017 </p>
+        </footer>
     </div>
     <script>
         window.onload=function(){
@@ -155,6 +169,13 @@
                 300
             );
         }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            Typed.new('#typed', {
+                stringsElement: document.getElementById('typed-strings')
+            });
+        });
     </script>
 </body>
 </html>
