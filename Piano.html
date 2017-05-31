@@ -164,7 +164,8 @@
             oscillator.start();
             setTimeout(
                 function() {
-                    oscillator.stop();
+                    gainNode.gain.setValueAtTime(gainNode.gain.value, audioCtx.currentTime);
+                    gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.03);
                 },
                 300
             );
