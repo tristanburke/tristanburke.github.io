@@ -25,7 +25,7 @@ $('#ex1').slider({
     }
 });
 
-//Toggle Buttons
+//Toggle Buttons for wave type
 var wave = 'sine';
 function sine(){
     wave = 'sine';
