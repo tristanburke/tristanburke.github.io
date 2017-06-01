@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/piano.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Piano.html" afterPath="$PROJECT_DIR$/Piano.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-slider.css" afterPath="$PROJECT_DIR$/css/bootstrap-slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tristanburke.css" afterPath="$PROJECT_DIR$/css/tristanburke.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/piano.js" afterPath="$PROJECT_DIR$/js/piano.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,12 +62,12 @@
       <file leaf-file-name="Piano.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Piano.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="45" column="123" lean-forward="false" selection-start-line="45" selection-start-column="123" selection-end-line="45" selection-end-column="123" />
+            <state relative-caret-position="127">
+              <caret line="45" column="122" lean-forward="false" selection-start-line="45" selection-start-column="122" selection-end-line="45" selection-end-column="122" />
               <folding>
-                <element signature="e#2328#2334#0" expanded="true" />
-                <element signature="e#2421#2427#0" expanded="true" />
-                <element signature="e#2606#2612#0" expanded="true" />
+                <element signature="e#2327#2333#0" expanded="true" />
+                <element signature="e#2420#2426#0" expanded="true" />
+                <element signature="e#2605#2611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -329,7 +324,7 @@
       <workItem from="1488921787995" duration="511000" />
       <workItem from="1494793795994" duration="48360000" />
       <workItem from="1496091867447" duration="420000" />
-      <workItem from="1496096723133" duration="31806000" />
+      <workItem from="1496096723133" duration="32205000" />
     </task>
     <task id="LOCAL-00075" summary="edit">
       <created>1488335336822</created>
@@ -678,7 +673,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116605000" />
+    <option name="totallyTimeSpent" value="117004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-26" y="23" width="1260" height="583" extended-state="0" />
@@ -1143,12 +1138,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Piano.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="45" column="123" lean-forward="false" selection-start-line="45" selection-start-column="123" selection-end-line="45" selection-end-column="123" />
+        <state relative-caret-position="127">
+          <caret line="45" column="122" lean-forward="false" selection-start-line="45" selection-start-column="122" selection-end-line="45" selection-end-column="122" />
           <folding>
-            <element signature="e#2328#2334#0" expanded="true" />
-            <element signature="e#2421#2427#0" expanded="true" />
-            <element signature="e#2606#2612#0" expanded="true" />
+            <element signature="e#2327#2333#0" expanded="true" />
+            <element signature="e#2420#2426#0" expanded="true" />
+            <element signature="e#2605#2611#0" expanded="true" />
           </folding>
         </state>
       </provider>
