@@ -126,6 +126,7 @@ a{
     left: 50%;
     bottom: 0%;
 }
+
 /** Project Page **/
 .project{
     margin-bottom: 50px;
@@ -163,52 +164,6 @@ a{
 .proj-btn a:link{
     font-weight: normal;
 }
-/** Piano CSS **/
-.page2{
-    justify-content: center;
-}
-.piano{
-    margin:auto;
-    width: 405px;
-    height: 204px;
-    position: relative;
-}
-.key{
-    display: inline-block;
-    border-radius: 5px;
-    width: 50px;
-    height: 200px;
-    border: 2px solid black;
-}
-.black-key{
-    top: 0%;
-    display: inline-block;
-    width: 30px;
-    height: 140px;
-    background-color: black;
-    border-radius: 7px;
-}
-.cs{
-    position: absolute;
-    left: 35px;
-}
-.ds{
-    position: absolute;
-    left: 85px;
-}
-.fs{
-    position: absolute;
-    left: 185px;
-}
-.gs{
-    position: absolute;
-    left: 235px;
-}
-.as{
-    position: absolute;
-    left: 285px;
-}
-
 
 /** Typed cursor from Typed.js by Matt Bolt **/
 .typed-cursor{

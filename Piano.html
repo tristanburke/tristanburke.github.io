@@ -8,6 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" media="screen" href="css/tristanburke.css">
+    <link rel="stylesheet" media="screen" href="css/piano.css">
     <link rel="stylesheet" media="screen" href="css/bootstrap-slider.css">
 
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -42,7 +43,7 @@
             --><div id="as" class="black-key as"></div>
         </div>
         <div class="spacing">
-            <p>Volume  <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/></p>
+            <p>Volume <input id="ex1" data-slider-tooltip="hide" data-slider-id='ex1Slider' type="text" data-slider-min="0g" data-slider-max="10" data-slider-step="1" data-slider-value="5"/></p>
         </div>
         <footer class="container-fluid spacing4 text-center">
             <p><a href="https://github.com/tristanburke"target="_blank" >GitHub</a> &bull;
@@ -55,11 +56,6 @@
     </div>
     <script src="js/piano.js"></script>
     <script>
-        var slider = new Slider('#ex1', {
-            formatter: function(value) {
-                return 'Current value: ' + value;
-            }
-        });
         document.addEventListener('DOMContentLoaded', function(){
             Typed.new('#typed', {
                 stringsElement: document.getElementById('typed-strings')
