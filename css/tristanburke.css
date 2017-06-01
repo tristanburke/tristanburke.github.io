@@ -164,7 +164,9 @@ a{
 .proj-btn a:link{
     font-weight: normal;
 }
-
+.btn:focus,.btn:active, .btn:focus:hover{
+    outline: none;
+}
 /** Typed cursor from Typed.js by Matt Bolt **/
 .typed-cursor{
     opacity: 1;

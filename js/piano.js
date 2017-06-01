@@ -17,11 +17,37 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
+
+//Slider
 $('#ex1').slider({
     formatter: function(value) {
         return 'Current value: ' + value;
     }
 });
+
+//Toggle Buttons
+var wave = 'sine';
+function sine(){
+    wave = 'sine';
+    document.getElementById("sine").style.backgroundColor="#d2d2d2";
+    document.getElementById("sawtooth").style.backgroundColor="white";
+    document.getElementById("triangle").style.backgroundColor="white";
+}
+function sawtooth(){
+    wave = 'sawtooth';
+    document.getElementById("sine").style.backgroundColor="white";
+    document.getElementById("sawtooth").style.backgroundColor="#d2d2d2";
+    document.getElementById("triangle").style.backgroundColor="white";
+}
+function triangle(){
+    wave = 'triangle';
+    document.getElementById("sine").style.backgroundColor="white";
+    document.getElementById("sawtooth").style.backgroundColor="white";
+    document.getElementById("triangle").style.backgroundColor="#d2d2d2";
+}
+sine();
+
+//Set Listener
 window.onload=function(){
     document.addEventListener("keydown",play);
 }
@@ -132,7 +158,7 @@ function sound(freq) {
 
     gainNode.gain.value = $('#ex1').slider('getValue')/10;
     oscillator.frequency.value = freq;
-    oscillator.type = 'sine';
+    oscillator.type = wave;
 
     oscillator.start();
     gainNode.gain.setValueAtTime(gainNode.gain.value, audioCtx.currentTime);
