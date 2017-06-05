@@ -56,8 +56,12 @@ body{
     padding-bottom: 30px;
 }
 .spacing4{
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 30px;
+}
+.spacing-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .navbar-brand{
     font-size: 14px;

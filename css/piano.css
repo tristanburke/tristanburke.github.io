@@ -72,6 +72,21 @@
     background-color: white;
 }
 .btn-piano:hover{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
+}
+
+/** Octave Buttons **/
+
+.octave-btn {
+    height: 30px;
+    width: 28px;
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.octave-btn:hover{
+    color:white;
+    background-color: #222222;
 }

@@ -24,6 +24,37 @@ $('#ex1').slider({
         return 'Current value: ' + value;
     }
 });
+//Octave Button
+var octave_number=0;
+
+function loweroctave() {
+    if (octave_number <= 0) {
+        octave_number = 0;
+    } else {
+        octave_number -= 1;
+    }
+}
+function raiseoctave() {
+    if (octave_number >= 2) {
+        octave_number = 2;
+    } else {
+        octave_number += 1;
+    }
+}
+//initialize note hertz for three octaves
+var chertz =[261.626];
+var cshertz =[277.183];
+var dhertz =[293.665];
+var dshertz =[311.127];
+var ehertz =[329.628];
+var fhertz =[349.228];
+var fshertz =[369.994];
+var ghertz =[391.995];
+var gshertz =[415.305];
+var ahertz =[440.000];
+var ashertz =[466.164];
+var bhertz =[493.883];
+var c1hertz =[523.251];
 
 //Toggle Buttons for wave type
 var wave = 'sine';
@@ -67,79 +98,79 @@ var audioCtx = new(window.AudioContext || window.webkitAudioContext)();
 function play() {
     switch(event.keyCode){
         case 65: // C
-            sound(261.626);
+            sound(chertz[octave_number]);
             var key = document.getElementById('c');
             chColor(key);
             setTimeout(function() { chBackColor(key); }, 300);
             break;
         case 87: //C#
-            sound(277.183);
+            sound(cshertz[octave_number]);
             var key = document.getElementById('cs');
             chColorBlackKey(key);
             setTimeout(function() { chBackColorBlackKey(key); }, 300);
             break;
         case 83: //D
-            sound(293.665);
+            sound(dhertz[octave_number]);
             var key = document.getElementById('d');
             chColor(key);
             setTimeout(function() { chBackColor(key); }, 300);
             break;
         case 69: //D#
-            sound(311.127);
+            sound(dshertz[octave_number]);
             var key = document.getElementById('ds');
             chColorBlackKey(key);
             setTimeout(function() { chBackColorBlackKey(key); }, 300);
             break;
         case 68: //E
-            sound(329.628);
+            sound(ehertz[octave_number]);
             var key = document.getElementById('e');
             chColor(key);
             setTimeout(function() { chBackColor(key); }, 300);
             break;
         case 70: //F
-            sound(349.228);
+            sound(fhertz[octave_number]);
             var key = document.getElementById('f');
             chColor(key);
             setTimeout(function() { chBackColor(key); }, 300);
             break;
         case 84: //F#
-            sound(369.994);
+            sound(fshertz[octave_number]);
             var key = document.getElementById('fs');
             chColorBlackKey(key);
             setTimeout(function() { chBackColorBlackKey(key); }, 300);
             break;
         case 71: //G
-            sound(391.995);
+            sound(ghertz[octave_number]);
             var key = document.getElementById('g');
             chColor(key);
             setTimeout(function() { chBackColor(key); }, 300);
             break;
         case 89: //G#
-            sound(415.305);
+            sound(gshertz[octave_number]);
             var key = document.getElementById('gs');
             chColorBlackKey(key);
             setTimeout(function() { chBackColorBlackKey(key); }, 300);
             break;
         case 72: //A
-            sound(440.000);
+            sound(ahertz[octave_number]);
             var key = document.getElementById('a');
             chColor(key);
             setTimeout(function() { chBackColor(key); }, 300);
             break;
         case 85: //A#
-            sound(466.164);
+            sound(ashertz[octave_number]);
             var key = document.getElementById('as');
             chColorBlackKey(key);
             setTimeout(function() { chBackColorBlackKey(key); }, 300);
             break;
         case 74: //B
-            sound(493.883);
+            sound(bhertz[octave_number]);
             var key = document.getElementById('b');
             chColor(key);
             setTimeout(function() { chBackColor(key); }, 300);
             break;
         case 75: //C
-            sound(523.251);
+            sound(c1hertz[octave_number]);
             var key = document.getElementById('c1');
             chColor(key);
             setTimeout(function() { chBackColor(key); }, 300);

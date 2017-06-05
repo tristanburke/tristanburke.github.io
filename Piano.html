@@ -13,6 +13,9 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/typed.js"></script>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
     <!-- Slider buttons -->
     <link rel="stylesheet" media="screen" href="css/bootstrap-slider.css">
     <script src="js/bootstrap-slider.js"></script>
@@ -44,18 +47,15 @@
             --><div id="gs" class="black-key gs"></div><!--
             --><div id="as" class="black-key as"></div>
         </div>
-        <div class="spacing">
-            <p>Volume <input id="ex1" data-slider-tooltip="hide" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/></p>
+        <div class="spacing-20">
+            <p>Volume <input id="ex1" data-slider-tooltip="hide" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="3"/></p>
         </div>
-        <style>
-            .toogle.android .toggle-on {background-color: #222222}
-            .toggle.android { border-radius: 0px;}
-            .toggle.android .toggle-handle { border-radius: 0px; }
-        </style>
         <button id="sine" onclick="sine()" type="button" class="btn btn-piano">Sine</button>
         <button id="sawtooth" onclick="sawtooth()" type="button" class="btn btn-piano">Sawtooth</button>
         <button id="triangle" onclick="triangle()" type="button" class="btn btn-piano">Triangle</button>
-
+        <div class="spacing-20">
+            <p>Octave  <i id="left-octave" onclick="loweroctave()" class="fa octave-btn fa-2x fa-arrow-left"></i><i id="right-octave" onclick="raiseoctave()" class="fa octave-btn fa-2x fa-arrow-right"></i></p>
+        </div>
         <footer class="container-fluid spacing4 text-center">
             <p><a href="https://github.com/tristanburke"target="_blank" >GitHub</a> &bull;
                 <a href="mailto:tristan_burke@berkeley.edu" target="_blank">Email</a> &bull;
