@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+
 (function (console, $hx_exports) { "use strict";
 $hx_exports.coopy = $hx_exports.coopy || {};
 var HxOverrides = function() { };
