@@ -130,6 +130,30 @@ a{
     left: 50%;
     bottom: 0%;
 }
+/** About Page **/
+.bg-secondary {
+    color: white;
+    background-image: url('../Site_photos/About-me-2.jpeg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.first-text{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.middle-photo-text {
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.middle-photo-text p{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
 
 /** Project Page **/
 .project{
