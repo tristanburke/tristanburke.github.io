@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Website Header.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/tristan-sadie.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/About_me.html" afterPath="$PROJECT_DIR$/About_me.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/piano.css" afterPath="$PROJECT_DIR$/css/piano.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tristanburke.css" afterPath="$PROJECT_DIR$/css/tristanburke.css" />
-    </list>
+    <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About_me.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="About_me.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/About_me.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -50,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tristanburke.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tristanburke.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tristanburke.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-986">
-              <caret line="142" column="20" lean-forward="true" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+            <state relative-caret-position="-150">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -316,7 +309,7 @@
       <workItem from="1494793795994" duration="48360000" />
       <workItem from="1496091867447" duration="420000" />
       <workItem from="1496096723133" duration="40089000" />
-      <workItem from="1497212718881" duration="3940000" />
+      <workItem from="1497212718881" duration="4196000" />
     </task>
     <task id="LOCAL-00075" summary="edit">
       <created>1488335336822</created>
@@ -665,7 +658,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128828000" />
+    <option name="totallyTimeSpent" value="129084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-26" y="23" width="1260" height="583" extended-state="0" />
@@ -1037,18 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="126" column="166" lean-forward="false" selection-start-line="126" selection-start-column="166" selection-end-line="126" selection-end-column="166" />
-          <folding>
-            <element signature="e#8135#8141#0" expanded="true" />
-            <element signature="e#8228#8234#0" expanded="true" />
-            <element signature="e#8413#8419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/piano.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1077,14 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tristanburke.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
-          <caret line="142" column="20" lean-forward="true" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1106,6 +1079,26 @@
             <element signature="e#3752#3758#0" expanded="true" />
             <element signature="e#3921#3927#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="126" column="166" lean-forward="false" selection-start-line="126" selection-start-column="166" selection-end-line="126" selection-end-column="166" />
+          <folding>
+            <element signature="e#8135#8141#0" expanded="true" />
+            <element signature="e#8228#8234#0" expanded="true" />
+            <element signature="e#8413#8419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tristanburke.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
