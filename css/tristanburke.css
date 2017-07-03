@@ -130,7 +130,26 @@ a{
     left: 50%;
     bottom: 0%;
 }
+
+
 /** About Page **/
+.about-header {
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    width: 600px;
+}
+.about-nav-bar a{
+    margin-top: 15px;
+}
+.about-nav-bar a{
+    padding-left: 13px;
+    padding-right: 13px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #C0C0C0;
+}
 .bg-secondary {
     color: white;
     background-image: url('../Site_photos/About-me-2.jpeg');
@@ -140,28 +159,38 @@ a{
     background-attachment: fixed;
 }
 .first-text{
+    padding-bottom: 30px;
     margin-right: 150px;
     margin-left: 150px;
 }
 .middle-photo-text {
     margin-right: 150px;
     margin-left: 150px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .middle-photo-text p{
     color: white;
     font-weight: 400;
     font-size: 15px;
 }
+.experience h4{
+    font-size: 17px;
+}
+
 
 /** Project Page **/
 .project{
+    margin: auto;
+    align-content: center;
     margin-bottom: 50px;
-    position: relative;
+    position: center;
     width: 300px;
-    height: 300px;
+    height: 270px;
     text-align: center;
+}
+.project p{
+    display: inline-block;
 }
 .project a:link{
     font-weight: bold;
