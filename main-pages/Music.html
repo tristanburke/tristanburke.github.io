@@ -18,9 +18,42 @@
     </nav>
 </head>
 <body>
+    <script>
+        function randomizeArray(arr) {
+            var output = [];
+            while (arr.length) {
+                output.push(arr.splice(Math.floor(Math.random() * arr.length), 1)[0]);
+            }
+            return output;
+        }
+    </script>
     <div class="container page">
-        <div class = Carosel"></div>
-        <h1>Music: My Thoughts, Ramblings, and Feelings.</h1>
+        <div id="container">
+            <div id="photob" class="photobanner">
+                <script>
+                    nums = Array.apply(null, {length: 37}).map(Number.call, Number)
+                    first = randomizeArray(nums.splice(0,Math.floor(nums.length/2)))
+                    second = randomizeArray(nums.splice(Math.floor(nums.length/2), nums.length))
+                    document.write("<img class=\"first bannerimg\" src=\"../Site_photos/Musician_Photos/" + first[0] + ".jpg\"/>")
+                    for (var i=1;i<first.length;i++)
+                    {
+                        document.write("<img class=\"bannerimg\" src=\"../Site_Photos/Musician_Photos/" + first[i] + ".jpg\"/>");
+                    }
+                </script>1
+            </div>
+            <div class="text-center">
+                <h3>Music: My Thoughts, Ramblings, and Feelings.</h3>
+            </div>
+            <div id="photob2" class="photobanner">
+                <script>
+                    document.write("<img class=\"first bannerimg\" src=\"../Site_photos/Musician_Photos/" + second[0] + ".jpg\"/>")
+                    for (var i=1;i<second.length;i++)
+                    {
+                        document.write("<img class=\"bannerimg\" src=\"../Site_Photos/Musician_Photos/" + second[i] + ".jpg\"/>");
+                    }
+                </script>
+            </div>
+        </div>
         <footer class="container-fluid spacing text-center">
             <p><a href="https://github.com/tristanburke"target="_blank" >GitHub</a> &bull;
                 <a href="mailto:tristan_burke@berkeley.edu" target="_blank">Email</a> &bull;
