@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35ce248-1d2b-4ec3-b3ad-8d7e4df7c819" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Beatles.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Biggie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Billy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/BillyP.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Chance.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Cory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Creedence.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Dr.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Ella.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Elton.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Em.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Evgeny.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Gershwin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Hans.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Johnny.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/K and B.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Kanye.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Led.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Louis.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Metallica-Burt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Nina.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Oscar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Otis.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Preservation.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Professor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Rachmaninoff.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Ray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Sam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Simon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Sly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Sonny.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Stevie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Stones.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Vince.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Who.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Site_photos/Musician_Photos/Willie.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-posts/cory-henry.html" afterPath="$PROJECT_DIR$/blog-posts/cory-henry.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tristanburke.css" afterPath="$PROJECT_DIR$/css/tristanburke.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-pages/Music.html" afterPath="$PROJECT_DIR$/main-pages/Music.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,35 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Music.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main-pages/Music.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="39" column="112" lean-forward="true" selection-start-line="39" selection-start-column="112" selection-end-line="39" selection-end-column="113" />
-              <folding>
-                <element signature="e#2621#2627#0" expanded="true" />
-                <element signature="e#2714#2720#0" expanded="true" />
-                <element signature="e#2902#2908#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cory-henry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-posts/cory-henry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="150">
+              <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tristanburke.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tristanburke.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tristanburke.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="312" column="1" lean-forward="false" selection-start-line="312" selection-start-column="1" selection-end-line="312" selection-end-column="1" />
+            <state relative-caret-position="-4792">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -113,6 +61,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>border</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -144,8 +97,8 @@
         <option value="$PROJECT_DIR$/Music.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/load_images.php" />
-        <option value="$PROJECT_DIR$/css/tristanburke.css" />
         <option value="$PROJECT_DIR$/main-pages/Music.html" />
+        <option value="$PROJECT_DIR$/css/tristanburke.css" />
         <option value="$PROJECT_DIR$/blog-posts/cory-henry.html" />
       </list>
     </option>
@@ -157,7 +110,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="703" />
@@ -188,20 +141,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tristanburke.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tristanburke.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tristanburke.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main-pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,7 +279,7 @@
       <workItem from="1494793795994" duration="48360000" />
       <workItem from="1496091867447" duration="420000" />
       <workItem from="1496096723133" duration="40089000" />
-      <workItem from="1497212718881" duration="41377000" />
+      <workItem from="1497212718881" duration="49128000" />
     </task>
     <task id="LOCAL-00075" summary="edit">
       <created>1488335336822</created>
@@ -689,7 +628,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166265000" />
+    <option name="totallyTimeSpent" value="174016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,7 +640,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1260" height="703" extended-state="0" />
+    <frame x="-1" y="23" width="1260" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1083,31 +1022,31 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tristanburke.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="312" column="1" lean-forward="false" selection-start-line="312" selection-start-column="1" selection-end-line="312" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-posts/cory-henry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-pages/Music.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="39" column="112" lean-forward="true" selection-start-line="39" selection-start-column="112" selection-end-line="39" selection-end-column="113" />
+        <state relative-caret-position="155">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
             <element signature="e#2621#2627#0" expanded="true" />
             <element signature="e#2714#2720#0" expanded="true" />
             <element signature="e#2902#2908#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-posts/cory-henry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tristanburke.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4792">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

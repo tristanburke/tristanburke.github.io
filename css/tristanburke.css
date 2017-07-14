@@ -312,6 +312,23 @@ a{
     }
 }
 
+/** Blog Post **/
+.blog-header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.blog-header h3 {
+    position: absolute;
+    width: 100%;
+}
+.blog-header img{
+    border:3px solid black;
+    height: auto
+}
+#Cory-Pic{
+    width: 700px;
+}
 /** Typed cursor from Typed.js by Matt Bolt **/
 .typed-cursor{
     opacity: 1;
