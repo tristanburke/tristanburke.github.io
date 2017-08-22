@@ -313,6 +313,9 @@ a{
 }
 
 /** Blog Post **/
+.blog-post iframe{
+    text-center: center;
+}
 .blog-header{
     position: relative;
     width: 100%;
@@ -323,6 +326,7 @@ a{
     width: 100%;
 }
 .blog-header img{
+    margin-bottom: 20px;
     border:3px solid black;
     height: auto
 }
