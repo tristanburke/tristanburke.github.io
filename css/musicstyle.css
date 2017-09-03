@@ -1,0 +1,132 @@
+/** Music Page **/
+.container {
+    margin: 0;
+    width: 1000px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.photobanner {
+    height: 233px;
+    width: 20000px;
+    margin-bottom: 80px;
+}
+
+.photobanner img {
+    height: 233px;
+    width: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.photobanner img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+    -ms-animation: bannermove 30s linear infinite;
+    -o-animation: bannermove 30s linear infinite;
+    animation: bannermove 30s linear infinite;
+}
+.second {
+    -webkit-animation: bannermove2 20s linear infinite;
+    -moz-animation: bannermove2 20s linear infinite;
+    -ms-animation: bannermove2 20s linear infinite;
+    -o-animation: bannermove2 20s linear infinite;
+    animation: bannermove2 20s linear infinite;
+}
+@keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+}
+@-moz-keyframes bannermove {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+}
+@-webkit-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+}
+@-ms-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+}
+@-o-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+}
+
+/** Blog Post **/
+.blog-post iframe{
+    text-center: center;
+}
+.blog-header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.blog-header h3 {
+    position: absolute;
+    width: 100%;
+}
+.blog-header img{
+    margin-bottom: 20px;
+    border:3px solid black;
+    height: auto
+}
+#Cory-Pic{
+    width: 700px;
+}
+/** Typed cursor from Typed.js by Matt Bolt **/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
