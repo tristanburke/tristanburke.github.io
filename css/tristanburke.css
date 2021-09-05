@@ -9,6 +9,15 @@ body{
     background: #ffffff;
     color: #000000;
 }
+a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+a:link{
+    font-weight: Bold;
+    text-decoration: underline;
+}
 .btn-primary-outline {
     background-color: #C0C0C0;
     border-color: black;
