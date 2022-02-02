@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" href="../css/tristanburke.css">
+    <link rel="stylesheet" media="screen" href="../css/wordle.css">
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/typed.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div id="typed-strings">
+        <p>Wordle... Replicated!</p>
+    </div>
+    <div class="container page">
+        <div class="side-page">
+            <h1><span id="typed"></span></h1>
+        </div class="container">
+        <div>
+            <button id="newgame" onclick="new_game()" type="button" class="btn">New Game</button>
+        </did>
+        <div id="board_container" class="board">
+        </div>
+        <script>
+            var htmlElements = "";
+            for (var row = 0; row < 5; row++) {
+                htmlElements += '<div class="board-row">'
+                for (var col = 0; col < 5; col++) {
+                    htmlElements += '<div id="tile-' + row + col + '" class="tile"> </div>';
+                }
+                htmlElements += '</div>';
+            }
+            var container = document.getElementById("board_container");
+            container.innerHTML = htmlElements;
+        </script>
+        <div class="keyboard">
+            <div class="row">
+                <button id="keyboard-q" class="btn-lg">Q</button>
+                <button id="keyboard-w" class="btn-lg">W</button>
+                <button id="keyboard-e" class="btn-lg">E</button>
+                <button id="keyboard-r" class="btn-lg">R</button>
+                <button id="keyboard-t" class="btn-lg">T</button>
+                <button id="keyboard-y" class="btn-lg">Y</button>
+                <button id="keyboard-u" class="btn-lg">U</button>
+                <button id="keyboard-i" class="btn-lg">I</button>
+                <button id="keyboard-o" class="btn-lg">O</button>
+                <button id="keyboard-p" class="btn-lg">P</button>
+            </div>
+            <div class="row">
+                <button id="keyboard-a" class="btn-lg">A</button>
+                <button id="keyboard-s" class="btn-lg">S</button>
+                <button id="keyboard-d" class="btn-lg">D</button>
+                <button id="keyboard-f" class="btn-lg">F</button>
+                <button id="keyboard-g" class="btn-lg">G</button>
+                <button id="keyboard-h" class="btn-lg">H</button>
+                <button id="keyboard-j" class="btn-lg">J</button>
+                <button id="keyboard-k" class="btn-lg">K</button>
+                <button id="keyboard-l" class="btn-lg">L</button>
+            </div>
+            <div class="row">
+                <button id="keyboard-enter" class="btn-lg">Enter</button>
+                <button id="keyboard-z" class="btn-lg">Z</button>
+                <button id="keyboard-x" class="btn-lg">X</button>
+                <button id="keyboard-c" class="btn-lg">C</button>
+                <button id="keyboard-v" class="btn-lg">V</button>
+                <button id="keyboard-b" class="btn-lg">B</button>
+                <button id="keyboard-n" class="btn-lg">N</button>
+                <button id="keyboard-m" class="btn-lg">M</button>
+                <button id="keyboard-delete" class="btn-lg">Del</button>
+            </div>
+        </div>
+        <footer class="container-fluid spacing text-center">
+            <p><a href="https://github.com/tristanburke"target="_blank" >GitHub</a> &bull;
+                <a href="mailto:tristan_burke@berkeley.edu" target="_blank">Email</a> &bull;
+                <a href="../tristan-burke-resume.pdf" target="_blank" >Resume</a>
+                <br>
+            </p>
+            <p>:)</p>
+        </footer>
+    </div>
+<script src="../js/wordle.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        Typed.new('#typed', {
+            stringsElement: document.getElementById('typed-strings')
+        });
+    });
+</script>
+</body>
+</html>
