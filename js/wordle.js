@@ -86,7 +86,7 @@ document.addEventListener('keydown', function(event) {
             // Check if valid guess
             var guess = currGuess.join("");
             console.log(guess);
-            if (wordSet.has(guess)) {
+            if (wordSet.has(guess) || specialWords.includes(guess)) {
 
                 // Evaluate the current guess at the current row
                 evaluateGuess();
